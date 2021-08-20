@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Hayden's Digi-Media Portfolio!
 
 You can use the [editor on GitHub](https://github.com/Haydonias/2021-2022DMportfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
