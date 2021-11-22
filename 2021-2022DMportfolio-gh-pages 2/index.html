@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="homePage">
+<head>
+	<!-- This is a comment! Text here will be ignored by the browser. -->
+	<meta charset="UTF-8">
+	<title>Hayden Roberts' Portfolio</title>
+	<link href="myCSS.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('raster/WebNav/NavButtonHome02.jpg','raster/WebNav/NavButtonRaster02.jpg','raster/WebNav/NavButtonVector02.jpg','raster/WebNav/NavButtonAudio02.jpg','raster/WebNav/NavButtonVideo02.jpg','raster/WebNav/NavButtonAnimation02.jpg')">
+<div class="container">
+  <div class="header">
+  	<img src="raster/HomeHeader.png" width="960" height="80">
+  </div>
+  <div class="nav">
+    <h3><a href="vector/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('VectorNav','','raster/WebNav/NavButtonVector02.jpg',1)"></a><a href="raster/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('RasterNav','','raster/WebNav/NavButtonRaster02.jpg',1)"></a><a href="raster/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('RasterNav','','raster/WebNav/NavButtonRaster02.jpg',1)"></a><a href="vector/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Home','','raster/WebNav/NavButtonHome02.jpg',1)"><img src="raster/WebNav/NavButtonHome01.jpg" alt="Home" width="200" height="60" id="Home"><img src="raster/WebNav/NavButtonRaster01.jpg" alt="Raster" width="200" height="60" id="RasterNav"><img src="raster/WebNav/NavButtonVector01.jpg" alt="Vector" width="200" height="60" id="VectorNav"></a><a href="index.html"></a><a href="raster/index.html"></a><a href="audio/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AudioNav','','raster/WebNav/NavButtonAudio02.jpg',1)"><img src="raster/WebNav/NavButtonAudio01.jpg" alt="Audio" width="200" height="60" id="AudioNav"></a><a href="vector/index.html"></a><a href="video/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('VideoNav','','raster/WebNav/NavButtonVideo02.jpg',1)"><img src="raster/WebNav/NavButtonVideo01.jpg" alt="Video" width="200" height="60" id="VideoNav"></a><a href="audio/index.html"></a><a href="animation/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AnimationNav','','raster/WebNav/NavButtonAnimation02.jpg',1)"><img src="raster/WebNav/NavButtonAnimation01.jpg" alt="Animation" width="200" height="60" id="AnimationNav"></a><a href="video/index.html"></a><a href="animation/index.html"></a></h3>
+  </div>
+  <div class="content">
+	  <br><img src="raster/homeImage.gif" width="960" height="500"></br>
+  </div>
+  <div class="footer">
+	  <h4><a href="aboutme.html">About Me</a> | <a href="mailto:gloyden14@gmail.com">Contact Me</a> | Copyright 2021</h4>
+  </div>
+</div>
+</body>
+</html>

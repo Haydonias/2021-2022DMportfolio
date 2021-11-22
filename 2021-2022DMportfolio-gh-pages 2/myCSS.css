@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* This is a comment! Text here will be ignored by the browser. */
+body {
+	font: 100%/1.4 Palatino, URW Palladio L, serif;
+     background-color: #DECCBC;
+     margin: 0;
+     padding: 0;
+     color: #000;
+}
+.homePage {
+	background: #DECCBC;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+.header {
+	background: #878483;
+	text-align: center;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 80px;
+	
+}
+.nav {
+	background: #DECCBC;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+}
+.content {
+	background: #CFC6C7;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.footer {
+	background: #383637;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+a:link {
+     color: #00AD80;
+}
+a:visited {
+     color: #AD2901;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
+}
